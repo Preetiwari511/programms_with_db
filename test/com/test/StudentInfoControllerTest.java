@@ -19,6 +19,7 @@ public class StudentInfoControllerTest {
 		assertTrue(testInfo.size()>0);
 		assertTrue(testInfo.get(1).getFirstName().equalsIgnoreCase("Bhumika"));
 		System.out.println(testInfo);
+		
 	}
 	@Test
 	public void addStudentInfoTest() throws Exception{
