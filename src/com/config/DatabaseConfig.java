@@ -17,5 +17,6 @@ public class DatabaseConfig {
 		   //throw new RuntimeException("connection couldn't be established.");
 		}
 		
+		
 	}
 }
