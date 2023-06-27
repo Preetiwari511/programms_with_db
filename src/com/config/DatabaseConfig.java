@@ -1,3 +1,4 @@
+
 package com.config;
 
 import java.sql.Connection;
@@ -16,7 +17,6 @@ public class DatabaseConfig {
 		   throw e;
 		   //throw new RuntimeException("connection couldn't be established.");
 		}
-		
 		
 	}
 }

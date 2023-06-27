@@ -214,6 +214,7 @@ public class StudentInfoDAOImpl implements StudentInfoDAO {
 			st.setString(4, studentInfo.getAddress());
 			st.setInt(5,studentInfo.getRollNo());
 			st.setString(6,studentInfo.getClassNo());
+			st.setDate(7, new java.sql.Date(studentInfo.getDateOfBirth().getYear(),studentInfo.getDateOfBirth().getMonth(), studentInfo.getDateOfBirth().getDay()));
 			st.setInt(8, studentInfo.getStudentID());
 			int i = st.executeUpdate();
 			if (i > 0)
